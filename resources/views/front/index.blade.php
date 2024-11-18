@@ -162,17 +162,24 @@
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="row py-5 text-center container">
-                    <div class="col-lg-6 col-md-8 mx-auto">
-                        <h1>ALBUMKU</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                           Fugiat nisi asperiores nihil unde magnam nostrum sit ut sequi perspiciatis aliquid ipsam minus eum aperiam atque sunt natus, 
-                           voluptas cumque? Temporibus.</p>
+            <section class="bg-light py-5"> 
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Albumku</span></h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Unde nostrum at recusandae dolores? Sunt nesciunt quo provident nulla 
+                                    quas magnam beatae sapiente vitae aliquam! Quis laboriosam ipsa sint 
+                                    accusantium dolores.</p>
+                            </div>
+                        </div>    
                     </div>
                 </div>
-
             </section>
+
             <section class="bg-light py-4">
                 <div class="container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.073400265774!2d109.18000727891926!3d-6.945837047554587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb8ab18ffd637%3A0x2be2eee8b447767d!2sPT.%20Tri%20Lestari%20Sandang%20Industri!5e0!3m2!1sid!2sid!4v1731570830408!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
