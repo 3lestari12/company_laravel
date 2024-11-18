@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Company;
+use App\Models\Perusahaan;
 
 class FrontContoller extends Controller
 {
@@ -11,11 +11,11 @@ class FrontContoller extends Controller
     public function index()
     {
     
-        // $company = Company::all();
+        $perusahaan = Perusahaan::all();
         return view(
             'front.index',
-            // [
-            //     'company' => $company, ]
+            [
+                'perusahaan' => $perusahaan, ]
         );
     }
 }

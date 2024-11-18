@@ -10,7 +10,9 @@
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
                                 <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Industri Garment</div></div>
-                                <div class="fs-3 fw-light text-muted"><strong>PT. TRI LESTARI SANDANG INDUSTRI</strong></div>
+                                @foreach ($perusahaan as $p)
+                                <div class="fs-3 fw-light text-muted"><strong>{{ $p->nama_perusahaan }}</strong></div>
+                                @endforeach
                                 <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline" style="font: size 0.7em;">Memproduksi Bahan Pakaian yang Berkualitas</span></h1>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                     <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/tentangkami">Tentang Kami</a>
@@ -169,11 +171,35 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Albumku</span></h2>
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Pimpinan Perusahaan</span></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     Unde nostrum at recusandae dolores? Sunt nesciunt quo provident nulla 
                                     quas magnam beatae sapiente vitae aliquam! Quis laboriosam ipsa sint 
                                     accusantium dolores.</p>
+                                                  
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-6 mb-4">
+                                                <div class="shadow d-flex align-items-stretch">
+                                                    <div class="thumbnail">
+                                                       <div class="container">
+                                                            <img src="" alt="" width="100%" height="200px">
+                                                            <div class="caption">
+                                                                <h3 class="mt-3 text-center">
+                                                                {{-- <strong>{{ Str::limit($article->judul, 17, '...') }}</strong> --}}
+                                                                </h3>
+                                                                {{-- <p>{!! $article->deskripsi !!}</p> --}}
+                                                                <h3><strong>MR. Cristiano Ronaldo</strong></h3>
+                                                                <p class="mt-3">halo</p>
+                                                                  {{-- <p><a href="/blogku/" class="btn btn-primary"
+                                                                role="button">Lihat</a></p> --}}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>    
                     </div>
@@ -182,7 +208,7 @@
 
             <section class="bg-light py-4">
                 <div class="container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.073400265774!2d109.18000727891926!3d-6.945837047554587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb8ab18ffd637%3A0x2be2eee8b447767d!2sPT.%20Tri%20Lestari%20Sandang%20Industri!5e0!3m2!1sid!2sid!4v1731570830408!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.073400265774!2d109.18000727891926!3d-6.945837047554587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fb8ab18ffd637%3A0x2be2eee8b447767d!2sPT.%20Tri%20Lestari%20Sandang%20Industri!5e0!3m2!1sid!2sid!4v1731570830408!5m2!1sid!2sid" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
 
