@@ -152,13 +152,14 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Blogs Me</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
+                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Berita Perusahaan</span></h2>
                                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
                                     <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-facebook"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-tiktok"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -172,27 +173,24 @@
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Pimpinan Perusahaan</span></h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Unde nostrum at recusandae dolores? Sunt nesciunt quo provident nulla 
-                                    quas magnam beatae sapiente vitae aliquam! Quis laboriosam ipsa sint 
-                                    accusantium dolores.</p>
-                                                  
+                                <p>dibawah ini adalah beberapa pimpinan perusahaan di PT. TRi Lestari Sandang Industri.</p>                 
                                     <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-lg-3 col-md-6 mb-4">
-                                                <div class="shadow d-flex align-items-stretch">
+                                                <div class="card shadow d-flex align-items-stretch">
                                                     <div class="thumbnail">
                                                        <div class="container">
-                                                            <img src="" alt="" width="100%" height="200px">
+                                                            <img src="https://th.bing.com/th/id/OIP.q2Bhu3uI4M21MTzAjZWjLgAAAA?rs=1&pid=ImgDetMain" alt="" width="100%" height="200px">
                                                             <div class="caption">
-                                                                <h3 class="mt-3 text-center">
-                                                                {{-- <strong>{{ Str::limit($article->judul, 17, '...') }}</strong> --}}
-                                                                </h3>
-                                                                {{-- <p>{!! $article->deskripsi !!}</p> --}}
-                                                                <h3><strong>MR. Cristiano Ronaldo</strong></h3>
-                                                                <p class="mt-3">halo</p>
-                                                                  {{-- <p><a href="/blogku/" class="btn btn-primary"
-                                                                role="button">Lihat</a></p> --}}
+                                                                <h3 class="mt-3 text-center">MR. LEE</h3>
+                                                                <p class="mt-3">hello world</p>
+                                                                {{-- <div class="d-flex justify-content-center fs-2 gap-4"> --}}
+                                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-twitter"></i></a>
+                                                                    <a class="text-gradient" style="color: rgb(16, 144, 248);" href="#!"><i class="bi bi-linkedin"></i></a>
+                                                                    <a class="text-gradient" style="color: blue;" href="#!"><i class="bi bi-facebook"></i></a>
+                                                                    <a class="text-gradient" style="color: red;" href="#!"><i class="bi bi-instagram"></i></a>
+                                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-tiktok"></i></a>
+                                                                {{-- </div> --}}
                                                             </div>
                                                         </div>
                                                     </div>
