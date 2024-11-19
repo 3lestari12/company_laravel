@@ -167,42 +167,71 @@
                 </div>
             </section>
 
-            <section class="bg-light py-5"> 
+            <section class="bg-light py-5">
                 <div class="container px-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Pimpinan Perusahaan</span></h2>
-                                <p>dibawah ini adalah beberapa pimpinan perusahaan di PT. TRi Lestari Sandang Industri.</p>                 
-                                    <div class="container-fluid">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-md-6 mb-4">
-                                                <div class="card shadow d-flex align-items-stretch">
-                                                    <div class="thumbnail">
-                                                       <div class="container">
-                                                            <img src="https://th.bing.com/th/id/OIP.q2Bhu3uI4M21MTzAjZWjLgAAAA?rs=1&pid=ImgDetMain" alt="" width="100%" height="200px">
-                                                            <div class="caption">
-                                                                <h3 class="mt-3 text-center">MR. LEE</h3>
-                                                                <p class="mt-3">hello world</p>
-                                                                {{-- <div class="d-flex justify-content-center fs-2 gap-4"> --}}
-                                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-twitter"></i></a>
-                                                                    <a class="text-gradient" style="color: rgb(16, 144, 248);" href="#!"><i class="bi bi-linkedin"></i></a>
-                                                                    <a class="text-gradient" style="color: blue;" href="#!"><i class="bi bi-facebook"></i></a>
-                                                                    <a class="text-gradient" style="color: red;" href="#!"><i class="bi bi-instagram"></i></a>
-                                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-tiktok"></i></a>
-                                                                {{-- </div> --}}
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                <p>Dibawah ini adalah beberapa pimpinan perusahaan di PT. TRi Lestari Sandang Industri.</p>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="card shadow">
+                                            <img src="https://th.bing.com/th/id/OIP.q2Bhu3uI4M21MTzAjZWjLgAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="MR. LEE" style="height: 200px;width:100%; object-fit: cover;">
+                                            <div class="card-body text-center" style="overflow: hidden;">
+                                                <h3 class="card-title mt-3">MR. LEE</h3>
+                                                <p class="card-text mt-3">Hello world</p>
+                                                <div class="d-flex justify-content-center flex-wrap fs-2 gap-3 mb-3">
+                                                    <a class="text-gradient" style="color: rgb(16, 144, 248);" href="#!"><i class="bi bi-linkedin"></i></a>
+                                                    <a class="text-gradient" style="color: blue;" href="#!"><i class="bi bi-facebook"></i></a>
+                                                    <a class="text-gradient" style="color: red;" href="#!"><i class="bi bi-instagram"></i></a>
+                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-tiktok"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Tambahkan div.col-lg-3 col-md-6 mb-4 lainnya jika ada lebih banyak pimpinan -->
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="card shadow">
+                                            <img src="https://th.bing.com/th/id/OIP.q2Bhu3uI4M21MTzAjZWjLgAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="MR. LEE" style="height: 200px;width:100%; object-fit: cover;">
+                                            <div class="card-body text-center" style="overflow: hidden;">
+                                                <h3 class="card-title mt-3">MR. LEE</h3>
+                                                <p class="card-text mt-3">Hello world</p>
+                                                <div class="d-flex justify-content-center flex-wrap fs-2 gap-3 mb-3">
+                                                    <a class="text-gradient" style="color: rgb(16, 144, 248);" href="#!"><i class="bi bi-linkedin"></i></a>
+                                                    <a class="text-gradient" style="color: blue;" href="#!"><i class="bi bi-facebook"></i></a>
+                                                    <a class="text-gradient" style="color: red;" href="#!"><i class="bi bi-instagram"></i></a>
+                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-tiktok"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="card shadow">
+                                            <img src="https://th.bing.com/th/id/OIP.q2Bhu3uI4M21MTzAjZWjLgAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="MR. LEE" style="height: 200px;width:100%; object-fit: cover;">
+                                            <div class="card-body text-center" style="overflow: hidden;">
+                                                <h3 class="card-title mt-3">MR. LEE</h3>
+                                                <p class="card-text mt-3">Hello world</p>
+                                                <div class="d-flex justify-content-center flex-wrap fs-2 gap-3 mb-3">
+                                                    <a class="text-gradient" style="color: rgb(16, 144, 248);" href="#!"><i class="bi bi-linkedin"></i></a>
+                                                    <a class="text-gradient" style="color: blue;" href="#!"><i class="bi bi-facebook"></i></a>
+                                                    <a class="text-gradient" style="color: red;" href="#!"><i class="bi bi-instagram"></i></a>
+                                                    <a class="text-gradient" style="color: black;" href="#!"><i class="bi bi-tiktok"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                 </div>
             </section>
+            
+            
 
             <section class="bg-light py-4">
                 <div class="container">

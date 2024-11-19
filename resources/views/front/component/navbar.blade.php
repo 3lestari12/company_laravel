@@ -6,8 +6,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/tentangkami">Tentang perusahaan</a></li>
-                <li class="nav-item"><a class="nav-link" href="/loker">Lowongan Pekerjaan</a></li>
+                <li class="nav-item"><a class="nav-link" href="/tentangkami">About Company</a></li>
+                <li class="nav-item"><a class="nav-link" href="/loker">Career</a></li>
                 <li class="nav-item"><a class="nav-link" href="/">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="/">Contact</a></li>
             </ul>
