@@ -10,7 +10,7 @@ class LokerController extends Controller
      //
      public function index() {
         $loker = Loker::all();
-        return view('front.loker',
+        return view('front.loker.loker',
          [
             'loker' => $loker,
         ],
