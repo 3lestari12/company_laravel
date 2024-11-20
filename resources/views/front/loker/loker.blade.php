@@ -5,10 +5,14 @@
     <div class="container px-5">
         <div class="row gx-5 justify-content-center">
             <div class="col-xxl-8">
+
                 <div class="text-center my-5">
-                    <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Lowongan Pekerjaan</span></h2>
-                    <p> <span class="card" style="color: red;">hati-hati penipuan!</span> PT. TRI Lestari Sandang Industri tidak memungut biaya sepeserpun!.</p>
+                    @foreach ($perusahaan as $p)
+                    <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Career in {{ $p->nama_perusahaan }}</span></h2>
+                    <p> <span class="card" style="color: red;">hati-hati penipuan!</span> {{ $p->nama_perusahaan }} tidak memungut biaya sepeserpun!.</p>
+                    @endforeach
                 </div>
+
                 <div class="container-fluid">
                     <div class="row">
                         @foreach ($loker as $l)
@@ -18,13 +22,13 @@
                                 <div class="card-body text-center" style="overflow: hidden;">
                                     <h3 class="card-title mt-3">{{ $l->nama_posisi }}</h3>
                                     <p class="card-text mt-3">{{ $l->jobdesk }}</p>
-                                    
                                 </div>
                             </div>
                         </div>
                         @endforeach
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
