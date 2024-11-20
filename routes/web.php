@@ -3,6 +3,7 @@
 use App\Http\Controllers\FrontContoller;
 use App\Http\Controllers\LokerController;
 use App\Http\Controllers\TentangKamiController;
+use App\Http\Controllers\WelcomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/', FrontContoller::class);
 Route::resource('/tentangkami', TentangKamiController::class);
 Route::resource('/loker', LokerController::class);
+Route::resource('/welcome', WelcomeController::class);

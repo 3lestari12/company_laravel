@@ -22,11 +22,13 @@
     <body class="d-flex flex-column h-100">
 
         <main class="flex-shrink-0">
+
             <!---- memanggil component navbar di folder front------>
              @include('front.component.navbar')
             <!---memanggil container atau konten-->
              @yield('container')
             <!----- End konten ----->
+
         </main>
 
         <!-- Footer -->
@@ -36,7 +38,7 @@
                     <!------ copyright terkini-------->
                     <div class="col-auto"> 
                         <div class="copyright">
-                            <span>copyright@
+                            <span>Copyright@
                             <script type="text/javascript">
                                 var creditsyear = new Date();
                                 document.write(creditsyear.getFullYear());
